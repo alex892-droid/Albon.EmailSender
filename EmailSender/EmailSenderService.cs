@@ -11,7 +11,7 @@ namespace EmailSender
 {
     public class EmailSenderService : IEmailSenderService
     {
-        public IDatabaseService DatabaseService { get; set; }
+        public IObjectBaseService DatabaseService { get; set; }
 
         private Sender Sender { get; set; }
 
@@ -19,7 +19,7 @@ namespace EmailSender
 
         private SmtpClient SmtpClient { get; set; }
         
-        public EmailSenderService(IDatabaseService databaseService)
+        public EmailSenderService(IObjectBaseService databaseService)
         {
             DatabaseService = databaseService;
             ActualizeSMTPParameters();
