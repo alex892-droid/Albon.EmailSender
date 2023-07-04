@@ -14,9 +14,4 @@
     <PackageTags>email; sender;</PackageTags>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AttributeSharedKernel" Version="1.0.0" />
-    <PackageReference Include="BasicLinkedObjectBase" Version="1.0.1" />
-  </ItemGroup>
-
 </Project>
