@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/alex892-droid/Albon.EmailSender</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>email; sender;</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
